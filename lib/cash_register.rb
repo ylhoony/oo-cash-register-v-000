@@ -16,7 +16,7 @@ class CashRegister
   end
 
   def items(arr)
-    arr.each {|item| @items << item }
+    arr.each {|item| @items << item}
   end
 
   def apply_discount
