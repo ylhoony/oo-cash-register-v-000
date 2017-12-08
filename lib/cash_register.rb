@@ -15,7 +15,7 @@ class CashRegister
     @total += price * quantity
   end
 
-  def items(arr)
+  def items
     arr.each {|item| @items << item}
   end
 
