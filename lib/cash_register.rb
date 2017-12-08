@@ -6,8 +6,8 @@ class CashRegister
     @discount
   end
 
-  def discount
-    @discount
-  end
+  # def discount
+  #   @discount
+  # end
 
 end
