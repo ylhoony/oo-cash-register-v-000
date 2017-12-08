@@ -16,10 +16,6 @@ class CashRegister
     quantity.times {|i| @items << title}
   end
 
-  # def items
-  #   @items
-  # end
-
   def apply_discount
     if @discount == 0
       "There is no discount to apply."
